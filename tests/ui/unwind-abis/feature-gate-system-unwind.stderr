@@ -7,6 +7,6 @@ LL | extern "system-unwind" fn f() {}
    = note: see issue #74990 <https://github.com/rust-lang/rust/issues/74990> for more information
    = help: add `#![feature(c_unwind)]` to the crate attributes to enable
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0658`.

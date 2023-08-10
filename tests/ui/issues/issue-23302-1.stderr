@@ -11,6 +11,6 @@ note: cycle used when simplifying constant for the type system `X::A::{constant#
 LL |     A = X::A as isize,
    |         ^^^^^^^^^^^^^
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0391`.

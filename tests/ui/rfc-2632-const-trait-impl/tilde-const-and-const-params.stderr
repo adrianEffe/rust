@@ -10,5 +10,5 @@ note: this function is not `const`, so it cannot have `~const` trait bounds
 LL | fn bar<A: ~const Add42, const N: usize>(_: Foo<N>) -> Foo<{ A::add(N) }> {
    |    ^^^
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 

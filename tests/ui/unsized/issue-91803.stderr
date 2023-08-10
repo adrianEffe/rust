@@ -10,6 +10,6 @@ help: use `impl Foo<'a>` as the return type, as all return paths are of type `Bo
 LL | fn or<'a>(first: &'static dyn Foo<'a>) -> impl Foo<'a> {
    |                                           ~~~~~~~~~~~~
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0746`.

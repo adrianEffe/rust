@@ -9,6 +9,6 @@ LL |     let _: &[i8] = data.into();
              <[bool; LANES] as From<Mask<T, LANES>>>
    = note: required for `&[u8]` to implement `Into<&[i8]>`
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0277`.

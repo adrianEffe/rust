@@ -11,6 +11,6 @@ note: the trait `PartialOrd` is implemented for `*const ()`, but that implementa
 LL |     const A: bool = unsafe { id::<u8> as *const () < id::<u16> as *const () };
    |                                                    ^
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0277`.

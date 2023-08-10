@@ -4,6 +4,6 @@ error[E0449]: unnecessary visibility qualifier
 LL |     pub type Foo;
    |     ^^^ `pub` not permitted here because it's implied
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0449`.

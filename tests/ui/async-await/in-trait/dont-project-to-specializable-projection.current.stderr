@@ -15,5 +15,5 @@ LL |     default async fn foo(_: T) -> &'static str {
    |
    = note: specialization behaves in inconsistent and surprising ways with `#![feature(async_fn_in_trait)]`, and for now is disallowed
 
-error: aborting due to previous error; 1 warning emitted
+error: aborting due to 1 previous error; 1 warning emitted
 

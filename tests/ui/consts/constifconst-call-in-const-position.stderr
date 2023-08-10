@@ -13,6 +13,6 @@ error[E0080]: evaluation of `foo::<()>::{constant#0}` failed
 LL | const fn foo<T: ~const Tr>() -> [u8; T::a()] {
    |                                      ^^^^^^ calling non-const function `<() as Tr>::a`
 
-error: aborting due to previous error; 1 warning emitted
+error: aborting due to 1 previous error; 1 warning emitted
 
 For more information about this error, try `rustc --explain E0080`.

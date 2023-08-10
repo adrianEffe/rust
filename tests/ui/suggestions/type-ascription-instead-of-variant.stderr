@@ -8,5 +8,5 @@ LL |     let _ = Option:Some("");
    |
    = note: `#![feature(type_ascription)]` lets you annotate an expression with a type: `<expr>: <type>`
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 

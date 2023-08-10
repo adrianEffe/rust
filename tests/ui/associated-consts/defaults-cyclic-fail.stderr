@@ -16,6 +16,6 @@ note: cycle used when const-evaluating + checking `main::promoted[1]`
 LL |     assert_eq!(<() as Tr>::A, 0);
    |                ^^^^^^^^^^^^^
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0391`.

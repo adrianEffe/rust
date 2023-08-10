@@ -17,6 +17,6 @@ LL |       f
            the full type name has been written to '$TEST_BUILD_DIR/higher-rank-trait-bounds/hang-on-deeply-nested-dyn/hang-on-deeply-nested-dyn.long-type-hash.txt'
               found reference `&dyn Fn(u32)`
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0308`.

@@ -13,6 +13,6 @@ error[E0223]: ambiguous associated type
 LL |     for<B> B::Item: Send,
    |            ^^^^^^^ help: use the fully-qualified path: `<B as IntoIterator>::Item`
 
-error: aborting due to previous error; 1 warning emitted
+error: aborting due to 1 previous error; 1 warning emitted
 
 For more information about this error, try `rustc --explain E0223`.

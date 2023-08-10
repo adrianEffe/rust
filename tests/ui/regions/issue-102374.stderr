@@ -10,6 +10,6 @@ LL |     f
            found fn pointer `fn(Cell<...>)`
            the full type name has been written to '$TEST_BUILD_DIR/regions/issue-102374/issue-102374.long-type-hash.txt'
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0308`.

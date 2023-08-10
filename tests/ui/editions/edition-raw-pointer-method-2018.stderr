@@ -4,6 +4,6 @@ error[E0699]: the type of this value must be known to call a method on a raw poi
 LL |     let _ = y.is_null();
    |               ^^^^^^^
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0699`.

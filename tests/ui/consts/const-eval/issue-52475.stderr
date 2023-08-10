@@ -7,6 +7,6 @@ LL | |             x = &0; // Materialize a new AllocId
 LL | |         }
    | |_________^ exceeded interpreter step limit (see `#[const_eval_limit]`)
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0080`.

@@ -7,6 +7,6 @@ LL | |             n = if n % 2 == 0 { n/2 } else { 3*n + 1 };
 LL | |         }
    | |_________^ exceeded interpreter step limit (see `#[const_eval_limit]`)
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0080`.

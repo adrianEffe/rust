@@ -17,6 +17,6 @@ note: cycle used when checking item types in module `m`
 LL | mod m {
    | ^^^^^
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0391`.

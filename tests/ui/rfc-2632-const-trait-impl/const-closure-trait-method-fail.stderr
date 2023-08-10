@@ -11,6 +11,6 @@ LL | const _: () = assert!(need_const_closure(Tr::a) == 42);
    |                       ^^^^^^^^^^^^^^^^^^^^^^^^^
    = note: required because it appears within the type `fn(()) -> i32 {<() as Tr>::a}`
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0277`.

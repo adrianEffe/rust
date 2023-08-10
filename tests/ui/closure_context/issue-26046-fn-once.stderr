@@ -11,6 +11,6 @@ LL |     Box::new(closure)
    |
    = note: required for the cast from `[closure@$DIR/issue-26046-fn-once.rs:4:19: 4:26]` to the object type `dyn Fn() -> Vec<u8>`
 
-error: aborting due to previous error
+error: aborting due to 1 previous error
 
 For more information about this error, try `rustc --explain E0525`.
