@@ -1449,7 +1449,7 @@ impl HandlerInner {
         };
         let errors = match self.deduplicated_err_count {
             0 => String::new(),
-            1 => "aborting due to previous error".to_string(),
+            1 => "aborting due to 1 previous error".to_string(),
             count => format!("aborting due to {count} previous errors"),
         };
         if self.treat_err_as_bug() {
